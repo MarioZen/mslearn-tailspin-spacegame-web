@@ -5,6 +5,7 @@ ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 07/01/2021
 ms.locfileid: "113169686"
+
 trigger:
 - '*'
 pool:
