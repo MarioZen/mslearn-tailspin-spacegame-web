@@ -1,10 +1,10 @@
-### YamlMime:Yaml
-ms.openlocfilehash: 16dc8b4edff051168ef33aca865771632e9e8a6e
-ms.sourcegitcommit: 57d343a6c7c2aa43c9f007d7823891d2141eb471
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "113169686"
+#YamlMime:Yaml
+#ms.openlocfilehash: 16dc8b4edff051168ef33aca865771632e9e8a6e
+#ms.sourcegitcommit: 57d343a6c7c2aa43c9f007d7823891d2141eb471
+#ms.translationtype: HT
+#ms.contentlocale: it-IT
+#ms.lasthandoff: 07/01/2021
+#ms.locfileid: "113169686"
 trigger:
 - '*'
 pool:
@@ -17,7 +17,7 @@ steps:
   inputs:
     version: 5.x
 - task: Npm@1
-  displayName: Run npm install
+  displayName: Run npm install -y
   inputs:
     verbose: false
 - script: ./node_modules/.bin/node-sass Tailspin.SpaceGame.Web/wwwroot --output Tailspin.SpaceGame.Web/wwwroot
